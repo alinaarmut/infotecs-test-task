@@ -36,20 +36,24 @@
    **добавила файл json с доменами и IP-адресами**
    
    **установка необходимых пакетов**
+
+   ```
+   apt-get update
    
-   ```apt-get update
-   
-   apt-get install openssh-server```
+   apt-get install openssh-server
+   ```
 
    **создать пользователя sftp**
    
-   ```useradd -m sftpuser
+   ```
+   useradd -m sftpuser
    
    mkdir /home/sftpuser/.ssh
    
    chmod 700 /home/sftpuser/.ssh
    
-   passwd sftpuser```
+   passwd sftpuser
+   ```
    
    **запустить сервер**
    
