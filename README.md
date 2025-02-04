@@ -47,7 +47,7 @@
    
    chmod 700 /home/sftpuser/.ssh
    
-   passwd sftpuser ```
+   passwd sftpuser```
    
    **запустить сервер**
    
