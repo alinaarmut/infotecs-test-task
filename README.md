@@ -2,7 +2,7 @@
 
 1. Исполняемый jar-файл клиента называется:
    
-   testing_infotecs-1.0-SNAPSHOT.jar
+   `testing_infotecs-1.0-SNAPSHOT.jar`
    
 2. Проект был собран благодаря команде:
    
