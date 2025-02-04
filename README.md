@@ -6,7 +6,7 @@
    
 2. Проект был собран благодаря команде:
    
-   mvn clean package
+   `mvn clean package`
 
 3. Инструкция по работе с приложением:
    
@@ -25,39 +25,39 @@
 
    **подключение через docker с пробросом портов:**
    
-   docker run -it -p 2222:22 --name sftp-server ubuntu bash
+   ```docker run -it -p 2222:22 --name sftp-server ubuntu bash
    
    docker start sftp-server
    
-   docker exec -it sftp-server bash
+   docker exec -it sftp-server bash```
    
    **добавила файл json с доменами и IP-адресами**
    
    **установка необходимых пакетов**
    
-   apt-get update
+   ```apt-get update
    
-   apt-get install openssh-server
+   apt-get install openssh-server```
 
    **создать пользователя sftp**
    
-   useradd -m sftpuser
+   ```useradd -m sftpuser
    
    mkdir /home/sftpuser/.ssh
    
    chmod 700 /home/sftpuser/.ssh
    
-   passwd sftpuser 
+   passwd sftpuser ```
    
    **запустить сервер**
    
-   service ssh start
+   `service ssh start`
    
 5. Реализация тестов находится в файле SftpClientTest, но здесь она не была реализована.
 
 6. В будущем тесты можно запустить по команде:
    
-   mvn test
+   `mvn test`
    
 
    
