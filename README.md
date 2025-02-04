@@ -24,12 +24,14 @@
 
 
    **подключение через docker с пробросом портов:**
-   
-   `docker run -it -p 2222:22 --name sftp-server ubuntu bash
+
+   ```
+   docker run -it -p 2222:22 --name sftp-server ubuntu bash
    
    docker start sftp-server
    
-   docker exec -it sftp-server bash`
+   docker exec -it sftp-server bash
+   ```
    
    **добавила файл json с доменами и IP-адресами**
    
